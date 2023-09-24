@@ -1,0 +1,255 @@
+@charset"UTF-8";
+*{margin: 0px; box-sizing: border-box;}
+body{font-family: Arial,Helvetica,sans-serif;}
+h1,h2{
+	color:rgb(255,255,255);
+	font-weight: lighter;
+}
+h2{
+	padding: 20px 0px;
+	margin: 20px 0px;
+}
+hr{
+	width: 200px;
+	margin: 20px 0px;
+}
+h4{
+	color: rgb(100,100,100);
+	margin: 20px 0px;
+	letter-spacing: 5px; 
+	font-weight: lighter;
+}
+.first{
+	width: 10%;
+	height: 100%;
+	position: fixed;
+	overflow: auto;
+	border:1px solid black; 
+	float: left;
+	background-color: rgba(0,0,0,0.8);
+}
+.second{
+	width: 90%;
+	float: left;
+	margin-left: 10%;
+	border:1px solid black;
+	background-color: rgb(0,0,0);
+}
+.second > h1,.second > h4{
+	text-align: center;
+	padding: 20px;
+	color: #ffffff;
+	font-weight: lighter;
+}
+.first a{
+	width: 100%;
+	display: block;
+	padding: 20px;
+	color: rgb(255,255,255);
+	text-decoration: none;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 14px;
+}
+a.home{background-color: rgb(0,0,0);}
+.first a:hover{background-color: rgb(0,0,0);}
+div.name{
+	width: 100%;
+	position: fixed;
+	top: 0px;
+	z-index: 3;
+	display: none; 
+	overflow: hidden;
+	background-color: rgba(0,0,0,0.5);
+}
+div.name a{
+	width: 25%;
+	float: left;
+	padding: 10px; 
+	text-decoration: none;
+	color: rgb(180,180,180);
+	text-align: center;
+	font-size: 12px;
+}
+.second > h1{
+	font-size: 5vw;
+	padding-top: 50px;
+}
+div.name:hover{
+	background-color: rgb(0,0,0); 
+	color: rgb(255,255,255);
+}
+div.name:hover a{color: rgb(255,255,255);}
+ div.name a:hover{
+ 	color: rgb(0,0,0);
+	background-color:#ddd;
+}
+#About,#photos,#contact,.footer{
+	padding:50px 100px;
+	overflow: hidden;
+	margin: 50px 0px;
+} 
+#About > p{
+	color: rgb(100,100,100); 
+line-height: 20px;
+text-align: justify;
+font-size: 15px;
+}
+.take{
+	width: 100%;
+	overflow: hidden;
+	background-color: rgb(255,255,255); 
+}
+.take span{
+	width: 90%;
+	display: block;
+	padding: 15px;
+	background-color: rgb(80,80,80);
+}
+.des span{width: 85%;}
+.shop span{width: 80%;}
+.tat{
+	color: rgb(255,255,255);
+	font-size: 25px;
+	font-weight: lighter;
+	margin: 10px 0px;
+}
+.come{
+	padding: 30px; 
+	width: 100%;
+	margin: 30px 0px;
+	overflow: hidden;
+	background-color: rgb(255,255,255);
+}
+.come > div{
+	width: 25%;
+	float: left;
+	text-align: center;
+}
+.come p{text-align: center;color: rgb(0,0,0);}
+.see{
+	
+	background-color: #ffffff;
+	text-align: center;
+	color: rgb(0,0,0);
+	text-decoration: none;
+	display: inline-block;
+	margin: 10px 0px;
+	padding: 15px;
+	border:none; 
+}
+.see:hover{
+	cursor: pointer;
+	background-color: #f9f9f9f9;
+}
+div.price{margin: 50px 0px;}
+div.kate{
+	width: 49%;
+	float: left; 
+	margin:30px 0px;
+	margin-right: 1%;
+	text-align: center;
+	filter:contrast(50%);
+	background-color: rgb(255,255,255);
+}
+div.price p{
+	padding: 20px;
+	border-bottom: 1px solid #ccc;
+}
+div.price h2{
+	margin-top: 0px;
+	padding: 40px;
+	background-color: rgb(100,100,100);
+}
+div.price b{
+	display: block;
+	font-size: 25px;
+	margin: 5px 0px;
+}
+div.kate:hover{filter: contrast(100%);}
+div.kate button{
+	padding: 10px 20px;
+
+	font-size: 17px;
+	cursor: pointer;
+	border:none;color: rgb(0,0,0);
+}
+div.kate button:hover{
+	background-color: rgb(0,0,0);
+	color: rgb(255,255,255);
+}
+div.put{
+	margin-right: 0px;
+	margin-left: 1%;
+}
+#photos > div{
+	width: 50%;
+	float: left;
+}
+div.rep{
+	overflow: hidden;
+	color: rgb(100,100,100);
+	margin: 40px 0px;
+}
+div.rep > img{
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+	float: left;
+}
+div.rep > div{
+	display: inline;
+	float: left;
+	margin: 0px 10px;
+}
+div.rep i{
+	font-style: normal;
+	letter-spacing: normal;
+}
+div.rep p{
+	border-bottom: none;
+	padding:0px;
+}
+#photos img{
+	width: 100%;
+	padding: 5px;
+}
+#contact p{
+	color: rgb(100,100,100);
+	padding: 20px 0px;
+}
+#contact a,
+.footer a{
+	text-decoration: none;
+	color: inherit;
+}
+#contact a:hover,
+.footer a:hover
+{text-decoration: underline;}
+input{
+	width: 100%;
+	padding: 17px 5px;
+	margin-top: 9px;
+}
+input[type=submit]
+{width: 200px;border:none;}
+input[type=submit]:hover{
+	background-color: #ddd;
+	cursor: pointer;
+}
+div.footer{color: rgb(100,100,100);}
+@media screen and (max-width: 900px){
+	#About,#photos,
+	#contact,.footer{padding: 20px;}
+	.first{width: 20%;}
+	.second{width: 80%;margin-left: 20%;}
+}
+@media screen and (max-width: 600px){
+	.first{display: none;}
+	.second > h1{font-size: 7vw;}
+	.second{width: 100%;margin: 0px;}
+	div.name{display:block;}
+	#photos > div{width: 100%;}
+	.come > div{width: 100%;padding: 20px;}
+	div.kate{width: 100%;margin: initial 0px;}
+}
